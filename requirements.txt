@@ -1,3 +1,5 @@
-pyYAML
+-U pyYAML
 py3nvml
 torch
+tqdm
+librosa
