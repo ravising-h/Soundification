@@ -1,0 +1,26 @@
+num_epochs : 5
+batch_size : 25
+num_workers : 25
+learning_rate : 0.001
+device : 'cuda'
+use_dataloader : True
+total_train_size : 7000
+total_test_size : 800
+show : 2
+tensorboard : "./log/tf_log/"
+logging: "./log/"
+path_train : '/content/meld/train'
+path_test : '/content/meld/val'
+classes : 
+
+- 'disgust'
+- 'sad' 
+- 'happy'
+- 'fear'
+- 'neutral'
+
+form : "mfcc"
+criterion : "CrossEntropyLoss"
+optimizer : "Adam"
+model : "./model/model.yaml"
+checkpoint : "./checkpoint/"
