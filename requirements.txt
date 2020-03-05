@@ -1,5 +1,6 @@
--U pyYAML
+PyYAML
 py3nvml
 torch
 tqdm
 librosa
+numpy
