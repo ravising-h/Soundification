@@ -1,5 +1,4 @@
 # Soundification
-Note: Repo is not completed
 ## Sound-Classification using Pytorch
 The master branch works with **PyTorch 1.1 to 1.3.1.**
 ![](https://miro.medium.com/fit/c/1838/551/0*FPuNYV2HfUF8FCtb.png)
